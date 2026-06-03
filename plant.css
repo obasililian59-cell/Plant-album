@@ -1,0 +1,119 @@
+img:not(.im,.logo) {
+    height: 50vh;
+    max-width: 80vw;
+    border: 2px solid #2c3e2e;
+    border-radius: 5px;
+}
+
+.im {
+    height: auto;
+    width:100%;
+    border: 2px solid #2c3e2e;
+}
+
+body {
+    background-color: gray;
+    max-width: 100vw;
+}
+
+.plants {
+    border-radius: 5px;
+    margin: 0.5em auto;
+    border: 4px solid #546E7A;
+    text-align: center;
+}
+
+.plants a {
+    display: inline-block;
+    background-color: #546E7A;
+    color: white;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.plants a:hover{
+    background-color: #E65100; /*#CFD8DC;*/
+}
+
+.plants a:visited{
+    background-color: #006064;
+}
+
+section{
+    background-color: #455A64; /*solid gray*/
+    padding: 0.5em;
+    margin-bottom:0.5em;
+    border-radius: 1em;
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+section a{
+    margin-left: 0.75em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: teal; /*#546E7A;*/
+    text-decoration: none;
+    padding: 0.5em;
+    color: white;
+}
+
+section a:not(section .right):hover{
+    background-color: #54647A;
+}
+
+section a:not(section .right):visited{
+    background-color: #E65100;
+}
+section .right{
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom:0.1em;
+}
+
+#title{
+    text-align: center;
+    font-size: 2rem;
+    color: #1a1a1a;
+}
+
+header p{
+    text-align: center;
+    font-size: 1em;
+    color: #1a1a1a;
+}
+
+.des {
+    font-size: 1em;
+    font-weight: bold;
+    color:#1a1a1a;
+    text-align: center;
+}
+
+h2,section p{
+    color:white;
+    margin-left: 1.5em;
+}
+
+figcaption {
+    font-style: italic;
+    color: #c76d46;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    font-size: 0.2em;
+    color:#1a1a1a;
+    padding: 5px;
+}
+
+.back-link {
+    display: inline-block;
+}
